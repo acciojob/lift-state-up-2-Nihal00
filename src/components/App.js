@@ -15,7 +15,7 @@ const App = () => {
 
             <div className="child">
                 <h2>Child Component</h2>
-                <input onInput={(e) => setInputvalue(e.target.value)}/>
+                <input type="text" onInput={(e) => setInputvalue(e.target.value)}/>
             </div>
         </div>
     </div>
